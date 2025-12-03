@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+
+ 
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+        
+    }
+    
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <form action="/submit" method="post">
+        <label for="fname">First Name:</label>
+        <i class="fa-solid fa-user"></i>
+        <input type="text" id="fname" name="fname" required>
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <i class="fa-solid fa-user"></i>
+        <input type="lname" id="lname" name="lname" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="phone">Phone #:</label>
+        <i class="fa-solid fa-phone"></i>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        <label for="address">Address:</label>
+        <i class="fa-solid fa-address-book"></i>
+        <input type="address" id="address" name="address" required>
+        <br><br>
+        <label for="city">City:</label>
+       <i class="fa-solid fa-map"></i>
+        <input type="city" id="city" name="city" required>
+        <br><br>
+        <label for="state">State:</label>
+        <i class="fa-solid fa-list"></i>
+  <select id="state" name="state">
+    <option value="">--Please select your state:--</option>
+    <option value="up">Uttar Pradesh</option>
+    <option value="dl">Delhi</option>
+    <option value="uk">UttarKhand</option>
+    <option value="wb">West Bengal</option>
+  </select>
+        <br><br>
+        <label for="zip">Zip Code:</label>
+        <i class="fa-solid fa-house"></i>
+        <input type="zip" id="zip" name="zip" required>
+        <br><br>
+        <label for="website">Website or domain name:</label>
+        <i class="fa-solid fa-earth-americas"></i>
+        <input type="website" id="website" name="website" required>
+        <br><br>
+        <label for="hosting">Do you have hosting?</label>
+  <input type="radio" id="hosting-yes" name="hosting" value="yes">
+  <label for="hosting-yes">Yes</label>
+  <input type="radio" id="hosting-no" name="hosting" value="no">
+  <label for="hosting-no">No</label>
+        <br><br>
+        <label for="comment">Project Description:</label><br><br>
+  <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        
+           <br><br>      
+
+        <input type="submit" value="Send">
+
+    </form>
+    </div>
+</body>
+</html>
